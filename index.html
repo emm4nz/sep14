@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <title>talo nanaman</title>
+</head>
+<body>
+    
+    <div class="navigation">
+        <div class="nav-button">
+            <button class="first-button">Page 1</button>
+            <button class="second-button">Page 2</button>
+        </div>
+    </div>
+    <h1>Images</h1>
+    <div class="container" align="center">
+        <div class="images">
+        <img id="img1" src="img/download.jpg" alt="1">
+        <img id="img2" src="img/download (1).jpg" alt="2">
+        <img id="img3" src="img/FM-EW2dVkAMY5zI.jpg" alt="3">
+        </div>
+
+        <div class="img-button">
+        <button onclick="changeImg(1)">Change</button>
+        <button onclick="changeImg(2)">Change</button>
+        <button onclick="changeImg(3)">Change</button>
+        </div>
+    </div>
+    <div class="container-vid">
+        <div class="content-vid">
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/9E9lwYOBtwQ?si=iSr_KPCF3nQSd2aZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/9E9lwYOBtwQ?si=iSr_KPCF3nQSd2aZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/9E9lwYOBtwQ?si=iSr_KPCF3nQSd2aZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script>
+        function changeImg(img1) {
+    var image = document.getElementById('img1');
+    image.src = 'img/images (4).jpg';
+}
+
+function changeImg(img2) {
+    var image = document.getElementById('img2');
+    image.src = 'img/images (3).jpg';
+}
+
+function changeImg(img3) {
+    var image = document.getElementById('img3');
+    image.src = 'img/images (2).jpg';
+}
+    </script>
+</body>
+</html>
